@@ -1,0 +1,37 @@
+====================================
+Log Analysis Report
+Generated: 2026-05-23 20:02:18
+====================================
+
+── ERRORS FOUND ──
+May 23 19:45:38 localhost cupsd[1511]: REQUEST localhost - - "POST / HTTP/1.1" 200 183 Renew-Subscription client-error-not-found
+
+── WARNINGS FOUND ──
+
+── FAILED SERVICES ──
+May 23 19:38:03 localhost packagekitd[10095]: Failed to get cache filename for nvidia-gpu-firmware
+May 23 19:38:03 localhost packagekitd[10095]: Failed to get cache filename for openssl-devel
+May 23 19:38:03 localhost packagekitd[10095]: Failed to get cache filename for python3-file-magic
+May 23 19:38:03 localhost packagekitd[10095]: Failed to get cache filename for python3-perf
+May 23 19:38:03 localhost packagekitd[10095]: Failed to get cache filename for qemu-guest-agent
+May 23 19:38:03 localhost packagekitd[10095]: Failed to get cache filename for rsyslog
+May 23 19:38:03 localhost packagekitd[10095]: Failed to get cache filename for rsyslog-gnutls
+May 23 19:38:03 localhost packagekitd[10095]: Failed to get cache filename for rsyslog-gssapi
+May 23 19:38:03 localhost packagekitd[10095]: Failed to get cache filename for rsyslog-relp
+May 23 19:38:03 localhost packagekitd[10095]: Failed to get cache filename for setroubleshoot-plugins
+May 23 19:38:03 localhost packagekitd[10095]: Failed to get cache filename for setroubleshoot-server
+May 23 19:38:03 localhost packagekitd[10095]: Failed to get cache filename for kernel
+May 23 19:38:03 localhost packagekitd[10095]: Failed to get cache filename for kernel-core
+May 23 19:38:03 localhost packagekitd[10095]: Failed to get cache filename for kernel-modules
+May 23 19:38:03 localhost packagekitd[10095]: Failed to get cache filename for kernel-modules-core
+May 23 19:38:03 localhost packagekitd[10095]: Failed to get cache filename for kernel-modules-extra
+May 23 19:38:03 localhost packagekitd[10095]: Failed to get cache filename for kernel-devel
+May 23 19:38:07 localhost packagekitd[10095]: Failed to get cache filename for kernel-modules-extra-matched
+May 23 19:38:07 localhost packagekitd[10095]: Failed to get cache filename for kernel
+May 23 19:58:42 localhost gnome-shell[3810]: Cursor update failed: drmModeAtomicCommit: Invalid argument
+
+── SUMMARY ──
+Total Errors   : 1
+Total Warnings : 0
+Total Failed   : 94
+
